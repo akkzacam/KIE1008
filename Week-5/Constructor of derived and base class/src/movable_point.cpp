@@ -1,5 +1,5 @@
 #include <iostream>
-#include "movable_point.hpp"
+#include "../header/movable_point.hpp"
 
 class Point;
 

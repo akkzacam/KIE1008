@@ -1,5 +1,5 @@
 #include <iostream>
-#include "point.hpp"
+#include "../header/point.hpp"
 
 Point::Point (int x_main, int y_main) : x(x_main), y(y_main)
 {

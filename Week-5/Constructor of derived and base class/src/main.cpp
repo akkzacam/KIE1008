@@ -1,6 +1,6 @@
 #include <iostream>
-#include "point.hpp"
-#include "movable_point.hpp"
+#include "../header/point.hpp"
+#include "../header/movable_point.hpp"
 
 int main(void)
 {
