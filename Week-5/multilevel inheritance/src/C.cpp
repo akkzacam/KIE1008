@@ -1,6 +1,6 @@
 #include <iostream>
-#include "B.hpp"
-#include "C.hpp"
+#include "../header/B.hpp"
+#include "../header/C.hpp"
 
 C::C (int a_main, int b_main, int c_main) : B(a_main, b_main), c(c_main) {}
 

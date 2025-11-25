@@ -1,6 +1,6 @@
 #include <iostream>
 #include <iomanip>
-#include "time.hpp"
+#include "../header/time.hpp"
 
 Time::Time(int second_main, int minute_main, int hour_main)
 : second(second_main), minute(minute_main), hour(hour_main) {}

@@ -1,5 +1,5 @@
 #include <iostream>
-#include "A.hpp"
+#include "../header/A.hpp"
 
 A::A(int a_main) : a(a_main) {}
 

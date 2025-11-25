@@ -1,7 +1,7 @@
 #include <iostream>
-#include "A.hpp"
-#include "B.hpp"
-#include "C.hpp"
+#include "../header/A.hpp"
+#include "../header/B.hpp"
+#include "../header/C.hpp"
 
 int main(void)
 {

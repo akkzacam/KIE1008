@@ -1,7 +1,7 @@
 #include <iostream>
-#include "date.hpp"
-#include "time.hpp"
-#include "date_time.hpp"
+#include "../header/date.hpp"
+#include "../header/time.hpp"
+#include "../header/date_time.hpp"
 
 int main(void)
 {  
