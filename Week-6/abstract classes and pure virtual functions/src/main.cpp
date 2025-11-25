@@ -1,6 +1,6 @@
-#include "circle.hpp"
-#include "rectangle.hpp"
-#include "shape.hpp"
+#include "../header/circle.hpp"
+#include "../header/rectangle.hpp"
+#include "../header/shape.hpp"
 #include <string>
 #include <iostream>
 

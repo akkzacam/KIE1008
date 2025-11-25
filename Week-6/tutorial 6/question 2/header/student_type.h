@@ -30,7 +30,6 @@ class studentType: public personType
         std::string *courses_main = nullptr,
         char *courseGrade_main = nullptr,
         int num_of_course_main = 0);
-
 };
 
 #endif
