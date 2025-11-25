@@ -1,5 +1,5 @@
 #include <iostream>
-#include "counter.hpp"
+#include "../header/counter.hpp"
 using namespace std;
 
 class Counter;
