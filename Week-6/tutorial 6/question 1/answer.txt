@@ -1,0 +1,39 @@
+expected output:
+int main()
+{
+small *ptrSmall;
+small objectSmall(2, 3);
+notSmall objectBig(3, 5, 9);
+ptrSmall = &objectSmall;
+cout << ptrSmall->add() << endl;
+ptrSmall->print();
+cout << "*-*-*-*-*-*-*-*-*-*-*-*" << endl << endl;
+ptrSmall = &objectBig;
+cout << ptrSmall->add() << endl;
+ptrSmall->print();
+return 0;
+}
+
+ptrSmall pointing to adress of objectSmall(2,3)
+ptrSmall->add(), call function in base class
+add returns 2 + 3
+output: 5
+
+ptrSmall->print(), calls print function in base class to output values
+output:
+x: 2, y = 3
+
+nextline output:
+*-*-*-*-*-*-*-*-*-*-*-*
+
+ptrSmall = &objectBig, ptrSmall already declared as pointer (small *ptrSmall)
+ptrSmall pointing to new address of objectBig(3, 5, 9)
+ptrSmall->add() calls for function in derived class of notSmall
+add() returns z + small::add(), z = 9, a = 3, b = 5
+returns 9 + small::add(); 9 + 5 + 3
+output: 17
+
+ptrSmall->print() calls for function in derived class;
+output: 
+x: 3, y = 5
+notSmall--- z: 9
