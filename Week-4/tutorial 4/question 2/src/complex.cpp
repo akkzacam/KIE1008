@@ -1,5 +1,5 @@
 #include <iostream>
-#include "complex.hpp"
+#include "../header/complex.hpp"
 
 Complex::Complex(double x_main, double y_main)
 : real(x_main), imaginary(y_main){}

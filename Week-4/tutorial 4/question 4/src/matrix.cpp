@@ -3,7 +3,7 @@
 #include <iomanip>
 #include <limits>
 #include <stdexcept>
-#include "matrix.hpp"
+#include "../header/matrix.hpp"
 
 /*
 MatrixType::MatrixType(int rows_main, int column_main) : rows(rows_main), columns(column_main)

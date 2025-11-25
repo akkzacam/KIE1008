@@ -1,6 +1,6 @@
 #include <iostream>
 #include <limits>
-#include "rational.hpp"
+#include "../header/rational.hpp"
 
 Rational::Rational(double numerator_main, double denominator_main)
 : numerator(numerator_main), denominator(denominator_main) {}

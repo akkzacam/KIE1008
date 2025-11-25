@@ -1,6 +1,6 @@
 #include <iostream>
 #include <limits>
-#include "matrix.hpp"
+#include "../header/matrix.hpp"
 
 void input(int &, int &);
 

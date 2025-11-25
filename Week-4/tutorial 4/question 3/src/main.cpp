@@ -1,5 +1,5 @@
 #include <iostream>
-#include "rational.hpp"
+#include "../header/rational.hpp"
 
 int main(void)
 {
