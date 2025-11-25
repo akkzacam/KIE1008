@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
-#include "employee.hpp"
-#include "hourly_employee.hpp"
+#include "../header/employee.hpp"
+#include "../header/hourly_employee.hpp"
 
 int main(void)
 {

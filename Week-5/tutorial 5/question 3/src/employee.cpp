@@ -2,7 +2,7 @@
 #include <iostream>
 #include <limits>
 #include <iomanip>
-#include "employee.hpp"
+#include "../header/employee.hpp"
 
 employee::employee(std::string name_main, std::string department_main, int age_main, double pay_main)
 : name(name_main), department(department_main), age(age_main), pay(pay_main)

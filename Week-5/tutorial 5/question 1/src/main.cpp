@@ -1,6 +1,6 @@
 #include <iostream>
-#include "circle.hpp"
-#include "cylinder.hpp"
+#include "../header/circle.hpp"
+#include "../header/cylinder.hpp"
 
 int main(void)
 {

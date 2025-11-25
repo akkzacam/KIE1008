@@ -1,5 +1,5 @@
 #include <string>
-#include "hourly_employee.hpp"
+#include "../header/hourly_employee.hpp"
 
 hourlyEmployee::hourlyEmployee(std::string name_main, std::string department_main, int age_main, double pay_main, double hrsWk, double payRate)
 : employee(name_main, department_main, age_main, pay_main), hoursWorked(hrsWk), hourlyPayRate(payRate)
